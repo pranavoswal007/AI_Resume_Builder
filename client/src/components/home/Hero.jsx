@@ -8,12 +8,12 @@ const Hero = () => {
   const { user } = useSelector((state) => state.auth);
 
   const logos = [
-    "https://saasly.prebuiltui.com/assets/companies-logo/instagram.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/framer.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/microsoft.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/huawei.svg",
-    "https://saasly.prebuiltui.com/assets/companies-logo/walmart.svg",
-  ];
+  "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+  "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/c/ca/Walmart_logo.svg",
+];
 
   return (
     <>

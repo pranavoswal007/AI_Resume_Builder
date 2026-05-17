@@ -12,10 +12,10 @@
   }
 
   input:not([type="checkbox"]) {
-    @apply outline-none focus:ring border border-gray-300 focus:ring-blue-500 focus:border-blue-500 rounded-lg text-gray-700
+    @apply outline-none focus:ring border border-gray-300 focus:ring-blue-500 focus:border-blue-500 rounded-lg text-gray-700;
   }
 
   textarea {
-    @apply outline-none focus:ring border border-gray-300 focus:ring-blue-500 focus:border-blue-500 resize-none
+    @apply outline-none focus:ring border border-gray-300 focus:ring-blue-500 focus:border-blue-500 resize-none;
   }
 }
